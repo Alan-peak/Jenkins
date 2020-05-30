@@ -11,4 +11,8 @@ public class Demo {
 		return "demo";
 	}
 	
+	@RequestMapping("hello")
+	public String hello() {
+		return "hello";
+	}
 }
